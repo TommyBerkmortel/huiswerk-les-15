@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+    --gradientSecond-color:#dd3038;
+    --gradientFirst-color:#e7613a;
+    --background-color:#FDF4F2;
+    --text-color:#292929;
+    --tileColor-color:#FFFFFF;
+}
