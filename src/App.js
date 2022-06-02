@@ -1,15 +1,30 @@
 import './App.css';
 import Header from "./Components/header/Header";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route, useHistory,
+} from 'react-router-dom';
+import Home from "./pages/home/Home";
+import Subreddit from "./pages/subreddit/Subreddit";
 
 
 function App() {
-    return (
-        <div className="page-container">
-            <Header />
 
-            <h1>Hallo</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
-        </div>
+    return (
+        <>
+            <Header/>
+
+            <Switch>
+                <Route exact path="/">
+                    <Home/>
+                </Route>
+
+                <Route path="/subreddit/:id">
+                    <Subreddit />
+                </Route>
+            </Switch>
+        </>
     );
 }
 
