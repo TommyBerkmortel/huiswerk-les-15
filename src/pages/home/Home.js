@@ -40,6 +40,7 @@ function Home() {
                                 subredditComments={reddit.data.num_comments}
                                 subredditUps={reddit.data.ups}
                                 subredditUrl={reddit.data.url}
+                                subredditName={reddit.data.subreddit_name_prefixed}
                             />
                         )
                     })}
@@ -51,3 +52,4 @@ function Home() {
 }
 
 export default Home;
+

@@ -10,10 +10,15 @@
     border-radius: 10px;
 }
 
-.post a {
+.subredditLink {
     color: var(--text);
     text-decoration: none;
 
+}
+
+.article-bottum a {
+    color: red;
+    font-weight: bolder ;
 }
 
 
