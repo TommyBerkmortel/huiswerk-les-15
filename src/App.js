@@ -1,7 +1,6 @@
 import './App.css';
 import Header from "./Components/header/Header";
 import {
-    BrowserRouter as Router,
     Switch,
     Route, useHistory,
 } from 'react-router-dom';

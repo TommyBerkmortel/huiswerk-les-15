@@ -4,8 +4,16 @@
     justify-content: space-between;
     background-color: var(--tileColor);
     width: 350px;
-    height: 160px;
+    height: 250px;
     margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.post a {
+    color: var(--text);
+    text-decoration: none;
+
 }
 
 

@@ -39,6 +39,7 @@ function Home() {
                                 subredditTitle={reddit.data.title}
                                 subredditComments={reddit.data.num_comments}
                                 subredditUps={reddit.data.ups}
+                                subredditUrl={reddit.data.url}
                             />
                         )
                     })}

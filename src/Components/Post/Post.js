@@ -2,10 +2,10 @@ import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import './Post.css';
 
-function Post({subredditTitle, subredditComments, subredditUps}) {
+function Post({subredditTitle, subredditComments, subredditUps,subredditUrl}) {
     return (
         <article className="post">
-            <h2>{subredditTitle}</h2>
+            <a href={subredditUrl} target="_blank"><h2>{subredditTitle}</h2></a>
             <div className="article-bottum">
                 <Link to="/blabla">link test</Link>
                 <span>Comments {subredditComments} - Ups {subredditUps}</span>
