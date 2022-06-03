@@ -15,8 +15,6 @@ function Subreddit() {
                 console.log(result.data.data)
                 setReddits(result.data.data)
 
-
-
             } catch (e) {
                 console.error(e)
             }
@@ -30,8 +28,12 @@ function Subreddit() {
         <div className="outer-container">
             <div className="inner-container">
                 <h1>Subreddit</h1>
-
-
+                <h3>Title</h3>
+                <p>{reddits.title}</p>
+                <h3>Description</h3>
+                <p>{reddits.public_description}</p>
+                <h3>Number of subscribers</h3>
+                <p>{reddits.subscribers}</p>
 
             </div>
         </div>

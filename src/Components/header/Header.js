@@ -2,6 +2,7 @@ import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import './Header.css';
 import logo from '../../assets/logo.png';
+import HeaderContent from "../headerContent/HeaderContent";
 
 function Header() {
     return (
@@ -22,10 +23,10 @@ function Header() {
                         </li>
                     </ul>
                 </nav>
-                <div className="logo-frame">
-                    <img src={logo} alt="Reddit logo" className="logo"/>
-                    <h1>Reddit</h1>
-                </div>
+                <HeaderContent
+                    pageTitle="Reddit"
+                    image={<img src={logo} alt="Reddit logo" className="logo"/>}
+                />
             </div>
         </header>
     );
