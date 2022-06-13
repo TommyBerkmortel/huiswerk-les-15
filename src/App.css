@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+    --gradientSecond: #dd3038;
+    --gradientFirst: #e7613a;
+    --gradientCombine: linear-gradient(135deg, rgba(231,97,58,1) 0%, rgba(221,48,56,1) 100%);
+    --background: #FDF4F2;
+    --text: #292929;
+    --tileColor: #FFFFFF;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px solid blue;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1400px;
+    border: 3px solid yellow;
+    margin: 0 50px;
+}

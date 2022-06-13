@@ -1,0 +1,29 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--tileColor);
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.subredditLink {
+    color: var(--text);
+    text-decoration: none;
+
+}
+
+.article-bottum a {
+    color: red;
+    font-weight: bolder ;
+}
+
+
+.article-bottum {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
