@@ -41,6 +41,8 @@ function Home() {
                                 subredditUps={reddit.data.ups}
                                 subredditUrl={reddit.data.url}
                                 subredditName={reddit.data.subreddit_name_prefixed}
+                                /*subredditid={ }*/
+                                // effe kwijt wat hierin moest staan
                             />
                         )
                     })}
